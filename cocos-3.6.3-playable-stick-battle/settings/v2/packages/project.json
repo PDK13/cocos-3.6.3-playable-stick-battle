@@ -1,0 +1,42 @@
+{
+  "layer": [
+    {
+      "name": "default",
+      "value": 1
+    },
+    {
+      "name": "game",
+      "value": 2
+    }
+  ],
+  "general": {
+    "designResolution": {
+      "width": 1920,
+      "height": 1080,
+      "fitHeight": true
+    }
+  },
+  "physics": {
+    "collisionMatrix": {
+      "0": 16,
+      "1": 20,
+      "2": 2,
+      "3": 8,
+      "4": 3
+    },
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "body"
+      },
+      {
+        "index": 2,
+        "name": "range"
+      },
+      {
+        "index": 3,
+        "name": "renderer"
+      }
+    ]
+  }
+}
